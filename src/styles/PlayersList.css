@@ -1,0 +1,21 @@
+.containerCardPlayer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.searchZone {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 30px;
+}
+
+input {
+    border: black solid 1px;
+    border-radius: 10px;
+    text-align: center;
+}

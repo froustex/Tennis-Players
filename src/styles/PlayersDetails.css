@@ -1,0 +1,40 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 200px;
+    align-items: center;
+}
+
+.player:hover {
+    scale: 1.05;
+ } 
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.imgPlayer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.playerDetails-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.playerDesc {
+    width: 50%;
+    font-size: 1.5rem;
+}
